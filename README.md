@@ -1,5 +1,8 @@
 <img src="Screenshot 2023-01-27 at 9.24.17 AM.png" />
 
+# Aknowledgments 
+## App created with tutorial during MOD 15 of MIT xPro with Dr. John Williams
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
