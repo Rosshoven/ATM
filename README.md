@@ -1,4 +1,4 @@
-<img src="Screenshot 2023-01-27 at 9.24.17 AM" />
+<img src="Screenshot 2023-01-27 at 9.24.17 AM.png" />
 
 # Getting Started with Create React App
 
