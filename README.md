@@ -2,6 +2,7 @@
 
 # Aknowledgments 
 ## App created with tutorial during MOD 15 of MIT xPro with Dr. John Williams
+## Changes made: I created the React app from scratch with the toolchain so I could divide up the components into their own js files, including ATMdeposit.js, Account.js and index.js. I wanted to make the components separate and more reusable in the future. Account.js is the parent and takes in the child ATMdeposit.js, and index.js takes in the Account.js and is rendered into the html “root”. I also made a styles.css page that is imported into the Account.js file, styling the page to look a little more ATM friendly with flexbox, changed colors, and some slight font changes. 
 
 # Getting Started with Create React App
 
