@@ -1,15 +1,15 @@
 import React from "react";
-// import { ReactDOM } from "react";
+import { useState } from "react";
 import ATMDeposit from "./ATMDeposit";
 import "./styles.css"
 
 const Account = () => {
     // let deposit = 0; // state of this transaction
-    const [deposit, setDeposit] = React.useState(0);
-    const [totalState, setTotalState] = React.useState(0);
-    const [isDeposit, setIsDeposit] = React.useState(true);
-    const [atmMode, setAtmMode] = React.useState('');
-    const [validTransaction, setValidTransaction] = React.useState(false);
+    const [deposit, setDeposit] = useState(0);
+    const [totalState, setTotalState] = useState(0);
+    const [isDeposit, setIsDeposit] = useState(true);
+    const [atmMode, setAtmMode] = useState('');
+    const [validTransaction, setValidTransaction] = useState(false);
   
     let status = `Account Balance $ ${totalState} `;
     console.log(`Account Rendered with isDeposit: ${isDeposit}`);
